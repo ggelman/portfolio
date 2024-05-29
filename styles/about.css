@@ -100,7 +100,7 @@ ul {
 
 .foto-perfil {
     border-radius: 10%;
-    width: 45%
+    width: 45%;
 }
 
 .rodape {
@@ -155,7 +155,7 @@ ul {
 
 @media(max-width:450px) {
     .cabecalho-menu {
-        gap: 1.7rem
+        gap: 1.7rem;
     }
 
     .apresentacao-conteudo-titulo{
