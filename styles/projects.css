@@ -200,8 +200,8 @@ img {
 
 @media(max-width:450px) {
     .cabecalho-menu {
-        gap: 2rem
-}
+        gap: 1.7rem;
+    }
 
     .apresentacao-conteudo-titulo{
         font-size: .9rem;
