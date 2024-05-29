@@ -150,7 +150,7 @@ img {
     }
 
     .apresentacao {
-        flex-direction: column-reverse;
+        flex-direction: column;
         padding: 2%;
     }
 
@@ -166,6 +166,10 @@ img {
 }
 
 @media(max-width:580px) {
+    .apresentacao-conteudo-titulo {
+        font-size: 1.1rem;
+        text-align: center;
+    }
 
     .apresentacao-conteudo {
         width: 100%;
@@ -195,6 +199,14 @@ img {
 }
 
 @media(max-width:400px) {
+    .cabecalho-menu {
+        gap: 2rem
+}
+
+    .apresentacao-conteudo-titulo{
+        font-size: .9rem;
+    }
+
     .container-projetos {
         width: 80%;
     }
