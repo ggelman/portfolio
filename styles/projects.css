@@ -157,4 +157,16 @@ img {
     .apresentacao-conteudo {
         width: auto;
     }
+
+    .container-projetos {
+        gap: 0.5rem;
+        padding: 4%;
+        flex-wrap: wrap;
+    }
+}
+
+@media(max-width:550px) {
+    .container-projetos{
+        flex-direction: column;
+    }
 }
