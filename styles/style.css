@@ -164,7 +164,7 @@ body {
 @media(max-width:450px) {
     .cabecalho-menu {
         font-size: .5rem;
-        gap: 1.5rem;
+        gap: 1.7rem;
     }
 
     .apresentacao-conteudo-titulo{
