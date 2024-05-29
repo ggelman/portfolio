@@ -161,17 +161,21 @@ body {
     }
 }
 
-@media(max-width:400px) {
+@media(max-width:450px) {
     .cabecalho-menu {
-        gap: 2rem
-}
+        font-size: .5rem;
+        gap: 1.5rem;
+    }
 
     .apresentacao-conteudo-titulo{
         font-size: .9rem;
     }
-}
 
-    .apresentacao-conteudo {
-        width: auto;
+    .apresentacao_links {
+        gap: 1rem;
+    }
+
+    .rodape {
+        margin-top: 1.65rem;
     }
 }
