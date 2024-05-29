@@ -165,8 +165,37 @@ img {
     }
 }
 
-@media(max-width:550px) {
+@media(max-width:580px) {
+
+    .apresentacao-conteudo {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
     .container-projetos{
         flex-direction: column;
+        margin: 2%;
+        width: 50%;
+        height: 47%;
+        padding: 0;
+    }
+
+    .apresentacao-conteudo-subtitulo{
+        font-size: .5rem;
+    }
+
+    .projeto {
+        width: 100%;
+    }
+
+    img {
+        width:15rem;
+        height: 10rem;
+    }
+}
+
+@media(max-width:400px) {
+    .container-projetos {
+        width: 80%;
     }
 }
