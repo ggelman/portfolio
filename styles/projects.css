@@ -104,27 +104,6 @@ img {
     text-align: start;
 }
 
-.informacoes-projeto {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #040203;
-    position: absolute;
-    width: 6.6%;
-    height: 40%;
-    font-weight: 600;
-    font-size: .8rem;
-    opacity:  0;
-    transition: 0.3s;
-    padding: 4% 9%;
-    color: var(--cor-secundaria);
-}
-
-.informacoes-projeto:hover{
-    opacity: 0.7;
-    background-color: #000;
-}
-
 .apresentacao-conteudo-texto {
     width: 12.5rem;
     align-items: center;
