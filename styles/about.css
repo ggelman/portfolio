@@ -131,3 +131,34 @@ ul {
         width: auto;
     }
 }
+
+@media(max-width:580px) {
+
+    .apresentacao {
+        gap: 1rem;
+    }
+
+    .apresentacao-conteudo-titulo {
+        font-size: 1.1rem;
+        text-align: center;
+    }
+
+    .apresentacao-conteudo {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .apresentacao-conteudo-subtitulo{
+        font-size: .5rem;
+    }
+}
+
+@media(max-width:400px) {
+    .cabecalho-menu {
+        gap: 2rem
+}
+
+    .apresentacao-conteudo-titulo{
+        font-size: .9rem;
+    }
+}
