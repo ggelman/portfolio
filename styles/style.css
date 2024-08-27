@@ -142,6 +142,10 @@ body {
 }
 
 @media(max-width:580px) {
+    .body {
+        height: 100vw;
+    }
+    
     .apresentacao {
         gap: 1rem;
     }
