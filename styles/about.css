@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+
+:root {
+    --cor-primaria: #000000;
+    --cor-secundaria: #EEEEEE;
+    --cor-terciaria: #35f5ff;
+    --cor-hover: #393E46;
+    --fonte-primaria: "Krona One", sans-serif;
+    --fonte-secundaria:  "Montserrat", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+}
+
+.cabecalho {
+    padding: 2% 0% 0% 9%;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 5rem;
+}
+
+.menu-link {
+    font-family: var(--fonte-secundaria);
+    font-size: 1.06rem;
+    font-weight: 600;
+    color: var(--cor-terciaria);
+    text-decoration: none;
+}
+
+.apresentacao {
+    display: flex;
+    padding: 4% 9%;
+    gap: 5.12rem;
+    align-items: center;
+}
+
+.apresentacao-conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.apresentacao-container {
+    display: flex;
+}
+
+.apresentacao-sobre {
+    width: 60%;
+}
+
+.apresentacao-imagem {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.foto-perfil {
+    border-radius: 10%;
+}
+
+.foto-perfil:hover {
+    scale: 1.1;
+    transition: 0.8s;
+    overflow: hidden;
+}
+
+.topicos{
+    display: flex;
+    flex-direction: column;
+    gap: 0.625rem;
+    margin-top: 1.37rem;
+}
+
+.apresentacao-conteudo-titulo {
+    font-size: 1.85rem;
+    font-family: var(--fonte-primaria);
+}
+
+.apresentacao-conteudo-subtitulo {
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+    font-size: 1.37rem;
+    margin: 1rem 0 .5rem 0;
+}
+
+.apresentacao-sub {
+    font-size: 1rem;
+    font-family: var(--fonte-primaria);
+    margin: 0;
+}
+
+.apresentacao-conteudo-lista {
+    display: flex;
+    flex-direction: column;
+    gap: 0.625rem;
+}
+
+.apresentacao-principal {
+    font-size: 0.94rem;
+    font-family: var(--fonte-secundaria);
+    margin: 1rem 0 0 0;
+}
+
+.apresentacao-conteudo-texto {
+    font-size: 0.94rem;
+    font-family: var(--fonte-secundaria);
+}
+
+.apresentacao-cargo {
+    font-size: 0.94rem;
+    font-family: var(--fonte-secundaria);
+    font-weight: 700;
+}
+
+.lista-item {
+    font-family: var(--fonte-secundaria);
+    font-size: 0.94rem;
+    list-style-type: circle;
+    margin-left: 2rem;
+}
+
+.link-texto{
+    text-decoration: none;
+    color: var(--cor-terciaria);
+}
+
+.link-texto:hover{
+    text-transform: uppercase;
+}
+
+.destaque {
+    color: var(--cor-terciaria);
+}
+
+ul {
+    list-style: none;
+}
+
+@media (max-width: 850px) {
+    .cabecalho {
+     padding: 4%;   
+    }
+
+    .cabecalho-menu {
+        justify-content: center;
+    }
+
+    .apresentacao {
+        flex-direction: column-reverse;
+        padding: 2%;
+    }
+
+    .apresentacao-conteudo {
+        width: auto;
+    }
+
+    .apresentacao-principal {
+        font-size: .9rem;
+    }
+
+    .apresentacao-conteudo-texto {
+        font-size: .8rem;
+    }
+
+    .lista-item {
+        font-size: .8rem;
+    }
+}
+
+@media(max-width: 650px) {
+
+    .apresentacao {
+        gap: 1rem;
+    }
+
+    .apresentacao-container {
+        flex-direction: column;
+    }
+
+    .apresentacao-principal {
+        font-size: .7rem;
+    }
+
+    .apresentacao-sobre {
+        width: 100%;
+        margin: 1rem 0;
+    }
+
+    .apresentacao-imagem {
+        width: 100%;
+        margin: .5rem;
+    }
+
+    .apresentacao-conteudo-titulo {
+        font-size: 1.1rem;
+        text-align: center;
+    }
+
+    .apresentacao-conteudo {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .apresentacao-conteudo-subtitulo {
+        font-size: .8rem;
+    }
+
+    .apresentacao-sub {
+        font-size: .8rem;
+    }
+
+    .apresentacao-cargo {
+        font-size: .7rem;
+    }
+
+    .apresentacao-conteudo-texto {
+        font-size: .7rem;
+    }
+
+    .lista-item {
+        font-size: .7rem;
+    }
+
+    .topicos {
+        margin: .2rem 0;
+    }
+}
+
+@media(max-width:450px) {
+    .cabecalho-menu {
+        gap: 1.7rem;
+    }
+
+    .apresentacao-conteudo-titulo{
+        font-size: 1.5rem;
+    }
+
+    .apresentacao-conteudo-subtitulo{
+        font-size: 1rem;
+    }
+
+    img{
+        height: 15.5rem;
+    }
+}
+
+
