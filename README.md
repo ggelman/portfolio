@@ -2,7 +2,7 @@
 Olá, bem vindo(a) ao projeto do meu portfólio
 Portfolio feito com os cursos Alura
 
-![image](https://github.com/ggelman/portfolio/assets/162526097/3a5199b1-4dfa-4e89-bf06-cb04c568e7e1)
+![image](https://github.com/user-attachments/assets/21579ce7-298f-45fd-a16b-b14ec40c9aab)
 
 ## Ferramentas utilizadas:
 
